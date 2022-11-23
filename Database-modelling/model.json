@@ -1,0 +1,29 @@
+{
+    "stad": {
+        "<random>": {
+            "bikes": {
+                "bikeXX<Str>": {
+                    "_id": XXXX<Int>,
+                    "pos_lat": xx<Num>,
+                    "pos_long": xx<Num>,
+                    "batt": xx<Num>,
+                    "stat": on/low/dead<Str>,
+                }
+            },
+            "chargingstations": {
+                "location<Str>": {
+                    "pos_lat": XX<Num>,
+                    "pos_long": XX<Num>
+                    "stat": avail/occupied/non-functional<Str>
+                }
+            }
+        },
+        "riders": {
+            "riderX": {
+                "bike"{
+                    "_id": XXXX<Num>,
+                }
+            }
+        }
+    }
+}
