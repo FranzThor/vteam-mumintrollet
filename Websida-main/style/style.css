@@ -7,6 +7,21 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* 
+    The container is raping the page. all content should be put in a div with the container class
+ */
+.container {
+    height: 100%;
+    width: 100%;
+    background-image: url('../include/img/back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+    nav_container contains the nav bar content
+ */
 .nav_container{
     width: 100%;
     height: 5em;
@@ -16,6 +31,9 @@
     top: 0;
 }
 
+/* 
+    nav_content is used for all divs in the navbar. In our nav this is the div containing 
+ */
 .nav_content{
     width: 20%;
     height: 5em;
@@ -23,20 +41,40 @@
     align-items: center;
 }
 
+/* 
+    logo is the class dedicated to the div in the nav that currently says "Placeholder"
+ */
 .logo {
     color: white;
     margin-left: 5%;
 }
 
+/* 
+    This class is meant for all buttons
+ */
 .btn{
     box-shadow: -1px -1px 2px #FFFFFF, 1px 1px 2px #000000;
     text-decoration: none;
 }
 
+/* 
+    This class is putt on the buttons tat is currently active and have been pressed
+ */
+ .active{
+    background: rgba(115, 43, 31, 0.01);
+    box-shadow: inset -1px -1px 2px #FFFFFF, inset 1px 1px 2px #000000;
+}
+
+/* 
+    This is tha class that contains the nav buttons
+ */
 .nav_btn_container{
     justify-content: space-between;
 }
 
+/* 
+    This is tha class for the buttons in the navbar
+ */
 .nav_btn{
     width: 45%;
     height: 3em;
@@ -47,20 +85,24 @@
     border-radius: 20px;
 }
 
-.active{
-    background: rgba(115, 43, 31, 0.01);
-    box-shadow: inset -1px -1px 2px #FFFFFF, inset 1px 1px 2px #000000;
-}
-
+/* 
+    This is thor the text in the nav buttons
+ */
 .nav_btn_text{
     color: white;
     font-size: 1.5em;
 }
 
+/* 
+    This container is for the profile/account button on the right side of the nav
+ */
 .profile_container{
     justify-content: right;
 }
 
+/* 
+    This is the profile/account button class
+ */
 .profile{
     width: 3em;
     height: 3em;
@@ -73,50 +115,9 @@
     box-shadow: -1px -1px 2px #FFFFFF, 1px 1px 2px #000000;
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-    background-image: url('../include/img/back.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.navbar {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-}
-
-.nav-menu {
-    display: flex;
-    list-style: none;
-    padding: 2%;
-    position: relative;
-    right: 6%;
-}
-
-
-
-.nav-menu a {
-    background: rgba(115, 43, 31, 0.35);
-    box-shadow: -1px -1px 2px #FFFFFF, 1px 1px 2px #000000;
-    border-radius: 20px;
-
-    /* 
-    color: white;
-    padding: 20px;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: bolder;
-    font-size: 20px;
-    letter-spacing: 2px;
+/* 
+    This is for the button in the center of the home page
  */
-}
-
 .hero-buttom {
     position: absolute;
     top: 50%;
@@ -134,6 +135,9 @@
     border-radius: 15px;
 }
 
+/* 
+    This is for the google maps iframe on the home page
+ */
 .map {
     background-color: grey;
     width: 100%;
