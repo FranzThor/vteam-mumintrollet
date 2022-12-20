@@ -12,9 +12,8 @@
             include 'include/navbar.php';
         ?>
 
-       <div class="hero">
-        <!-- <button type="button">Login</button> -->
-            <a class="btn hero-buttom" href="">Login</a>
+       <div class="hero_btn_container">
+            <a class="btn hero_button" href="">Login</a>
        </div>
     </div>
     <div>
