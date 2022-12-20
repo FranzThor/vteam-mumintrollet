@@ -19,8 +19,6 @@
 
     /* This loop cycles all the nav buttons to match the container id with the button id */
     for (let i = 0; i < nav_buttons.length; i++) {
-
-        /*  */
         if (id == nav_buttons[i].id) {
 
             /* Selects the button if active is not a class on the button */
