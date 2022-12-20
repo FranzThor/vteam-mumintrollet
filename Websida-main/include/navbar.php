@@ -6,12 +6,12 @@
         </div>
     </div>
     <div class="nav_content nav_btn_container">
-        <a  id="btn_home" class="btn nav_btn" href="">
+        <a  id="home" class="btn nav_btn" href="">
             <p class="nav_btn_text">
                 Home
             </p>
         </a>
-        <a  id="btn_history" class="btn nav_btn" href="">
+        <a  id="history" class="btn nav_btn" href="">
             <p class="nav_btn_text">
                 History
             </p>
