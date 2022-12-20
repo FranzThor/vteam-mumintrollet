@@ -13,7 +13,7 @@
 .container {
     height: 100%;
     width: 100%;
-    background-image: url('../include/img/back.jpg');
+    background-image: url('../include/img/back2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,21 +116,25 @@
 }
 
 /* 
+    This class is for the div that contains the hero button
+ */
+.hero_btn_container{
+    margin-top: 25em;
+    display: flex;
+    justify-content: center;
+}
+
+/* 
     This is for the button in the center of the home page
  */
-.hero-buttom {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    display: inline-block;
-    padding: 5px 35px;
-    font-size: 25px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background: rgba(0,0,0,0.2);
-    border: none;
-    border-radius: 15px;
+.hero_button {
+    height: 1.5em;
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    border-radius: 20px;
+    background: rgba(115, 43, 31, 0.35);
 }
